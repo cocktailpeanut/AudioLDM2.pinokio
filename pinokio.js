@@ -6,7 +6,7 @@ const exists = (filepath) => {
 }
 module.exports = {
   title: "AudioLDM 2",
-  description: "One click installer for AudioLDM 2 Gradio UI (Requires at least Pinokio v0.0.56)",
+  description: "[Nvidia only] One click installer for AudioLDM 2 Gradio UI",
   icon: "icon.png",
   menu: async (kernel) => {
     let installed = await exists(path.resolve(__dirname, "audioldm2", "env"))
