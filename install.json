@@ -57,7 +57,7 @@
   }, {
       "method": "shell.enter",
       "params": {
-        "message": "npx --yes torchcraft@0.0.12",
+        "message": "npx --yes torchcraft@0.0.15",
         "on": [{
           "event": null,
           "return": true
@@ -71,6 +71,17 @@
         "event": null,
         "return": true
       }]
+    }
+  }, {
+    "method": "shell.enter",
+    "params": {
+      "message": "pip install gradio==3.50.2",
+      "on": [
+        {
+          "event": null,
+          "return": true
+        }
+      ]
     }
   }, {
     "method": "shell.enter",
